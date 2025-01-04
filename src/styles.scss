@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "variables";
+@import "assets/font/stylesheet.css";
+
+* {
+  color: $text-color;
+  font-family: 'Graphik';
+}
+
+.t-header {
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: $dark-blue;
+}
+
+.t-h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+}
+
+.t-h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.2px;
+}
+
+.t-h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.t-h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.t-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: $dark-blue;
+}
+
+.t-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+
+.t-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+
+
+.t-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+
+
+.t-smaller {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}

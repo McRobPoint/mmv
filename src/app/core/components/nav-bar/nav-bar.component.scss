@@ -1,0 +1,33 @@
+@import "variables";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: $dark-blue;
+  height: 137px;
+  padding: 0 16px 16px 16px;
+}
+
+nav > div {
+  color: white;
+}
+
+div {
+  height: 20px;
+  width: 70px;
+}
+
+.logo {
+  background-image: url(../../../../assets/logos/mmv.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.menu {
+  background-image: url(../../../../assets/icons/menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
