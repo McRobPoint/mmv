@@ -1,5 +1,6 @@
-<nav>
+<section>
   <div class="logo select-none cursor-pointer"></div>
-  <div class="menu select-none cursor-pointer"></div>
-</nav>
+  <div class="menu select-none cursor-pointer" (click)="openDialog()"></div>
+</section>
 <ng-content/>
+<nav-bar-menu #navBarMenu/>
