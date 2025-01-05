@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav-bar {
+  flex: 1;
+}
+
+mmv-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}

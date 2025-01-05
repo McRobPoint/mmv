@@ -1,0 +1,116 @@
+@import "variables";
+
+footer {
+  background-color: $dark-blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+  padding: 48px 16px;
+}
+
+
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+
+  .icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+  }
+
+
+  .linkedin {
+    background-image: url(../../../../assets/icons/linkedin.svg);
+  }
+
+  .instagram {
+    background-image: url(../../../../assets/icons/instagram.svg);
+  }
+
+  .mail {
+    background-image: url(../../../../assets/icons/mail.svg);
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px 0;
+}
+.links > * {
+  color: white !important;
+  h4 {
+    margin-bottom: 16px;
+  }
+}
+
+
+.get-in-touch {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .location-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../../../../assets/icons/location.svg);
+    width: 28px;
+    height: 28px;
+  }
+
+  .phone-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../../../../assets/icons/phone.svg);
+    width: 28px;
+    height: 28px;
+  }
+  .location > * {
+    color: white !important;
+  }
+}
+
+
+button {
+  width: 100%;
+  height: 56px;
+  border-radius: 35px;
+  background-color: $primary-color;
+
+  > a {
+    color: white !important;
+  }
+}
+
+.line {
+  margin-top: 16px;
+  height: 1px;
+  width: 100%;
+  background-color: #E2E2E2;
+}
+
+.copyright {
+  color: white !important;
+}
